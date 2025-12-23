@@ -1,0 +1,299 @@
+/* style.css */
+
+/* VARIÁVEIS DE CORES E ESTILO */
+:root {
+    --primary: #2c3e50;
+    /* Azul escuro (Texto e botões principais) */
+    --accent: #d35400;
+    /* Laranja tijolo (Destaques e Timer) */
+    --highlight: #f39c12;
+    /* Amarelo dourado (Detalhes) */
+    --success: #27ae60;
+    /* Verde (Acerto) */
+    --error: #c0392b;
+    /* Vermelho (Erro) */
+    --light: #ecf0f1;
+    /* Cinza claro (Fundo de elementos) */
+    --paper: #fdfbf7;
+    /* Cor de papel antigo (Fundo do container) */
+    --bg-body: #e0e5ec;
+    /* Fundo da página */
+}
+
+/* CONFIGURAÇÃO GERAL DA PÁGINA */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--bg-body);
+    color: #333;
+    margin: 0;
+    padding: 20px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Centraliza verticalmente se a tela for grande */
+}
+
+/* O CONTAINER PRINCIPAL (A "CAIXA" DO JOGO) */
+.container {
+    background: var(--paper);
+    padding: 0;
+    border-radius: 15px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+    /* Sombra suave */
+    max-width: 900px;
+    width: 100%;
+    overflow: hidden;
+    /* Garante que nada saia das bordas arredondadas */
+    position: relative;
+}
+
+/* --- TELA DE CONFIGURAÇÃO INICIAL --- */
+.setup-screen {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.setup-screen h1 {
+    color: var(--primary);
+    margin-bottom: 10px;
+}
+
+select {
+    padding: 12px;
+    font-size: 16px;
+    border: 2px solid var(--primary);
+    border-radius: 8px;
+    margin: 20px 0;
+    width: 100%;
+    max-width: 400px;
+    background: white;
+    cursor: pointer;
+}
+
+/* ESTILO DOS BOTÕES PADRÃO */
+.btn {
+    background-color: var(--primary);
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.2s, transform 0.1s;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #34495e;
+    transform: translateY(-2px);
+}
+
+/* --- CABEÇALHO DO QUIZ --- */
+.header {
+    background: var(--primary);
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.timer-badge {
+    background: var(--accent);
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 0.95rem;
+}
+
+/* BARRA DE PROGRESSO */
+.progress-container {
+    width: 100%;
+    height: 6px;
+    background: #ddd;
+}
+
+.progress-bar {
+    height: 100%;
+    background: var(--success);
+    width: 0%;
+    transition: width 0.4s ease;
+    /* Animação suave ao encher */
+}
+
+/* --- ÁREA DE CONTEÚDO (VERSÍCULO E OPÇÕES) --- */
+.content-area {
+    padding: 30px;
+}
+
+/* O cartão onde fica o versículo */
+.verse-card {
+    background: #fff;
+    border-left: 6px solid var(--highlight);
+    padding: 25px;
+    margin-bottom: 30px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    border-radius: 0 10px 10px 0;
+}
+
+.verse-text {
+    font-size: 1.4rem;
+    font-style: italic;
+    color: #444;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+.verse-hint {
+    color: #7f8c8d;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Grade de Botões de Resposta */
+.options-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* Duas colunas */
+    gap: 15px;
+}
+
+/* Em telas pequenas (celular), vira uma coluna só */
+@media(max-width: 600px) {
+    .options-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.option-btn {
+    background: white;
+    border: 2px solid #bdc3c7;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.2s;
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.option-btn:hover:not(:disabled) {
+    border-color: var(--primary);
+    background: #f7f9fa;
+}
+
+/* Estados de resposta (adicionados via JS) */
+.option-btn.correct {
+    background: var(--success);
+    color: white;
+    border-color: var(--success);
+}
+
+.option-btn.wrong {
+    background: var(--error);
+    color: white;
+    border-color: var(--error);
+}
+
+.option-btn:disabled {
+    cursor: default;
+    opacity: 0.7;
+}
+
+/* --- ÁREA DE FEEDBACK / DEEP DIVE (ABAS) --- */
+#feedback-area {
+    display: none;
+    /* Começa oculto */
+    margin-top: 30px;
+    animation: fadeIn 0.5s;
+}
+
+.feedback-header {
+    text-align: center;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* Sistema de Abas */
+.tabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+    overflow-x: auto;
+    /* Permite rolar horizontalmente no celular se precisar */
+}
+
+.tab-btn {
+    background: none;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #7f8c8d;
+    border-bottom: 3px solid transparent;
+    font-weight: 600;
+    white-space: nowrap;
+    /* Impede quebra de linha no nome da aba */
+}
+
+.tab-btn:hover {
+    color: var(--primary);
+}
+
+.tab-btn.active {
+    color: var(--primary);
+    border-bottom-color: var(--highlight);
+}
+
+/* Conteúdo de cada aba */
+.tab-content {
+    display: none;
+    line-height: 1.7;
+    color: #2c3e50;
+    font-size: 1.05rem;
+}
+
+.tab-content.active {
+    display: block;
+    animation: fadeIn 0.3s;
+}
+
+.info-label {
+    font-weight: bold;
+    color: var(--accent);
+    display: block;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+}
+
+/* Caixa de citação */
+.quote-box {
+    margin-top: 15px;
+    padding: 15px;
+    background: #f0f0f0;
+    border-left: 4px solid #7f8c8d;
+    font-style: italic;
+    color: #555;
+}
+
+/* ANIMAÇÕES */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

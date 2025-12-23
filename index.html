@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Bíblico Deep Dive</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div id="setup-area" class="setup-screen">
+        <h1>🎓 Estudo Bíblico Profundo</h1>
+        <p>Selecione um tema para começar.</p>
+        <select id="theme-select">
+            <option value="">-- Selecione um Tema --</option>
+        </select>
+        <br>
+        <button id="btn-start" class="btn">Iniciar Estudo</button>
+    </div>
+
+    <div id="quiz-area" style="display: none;">
+        <div class="header">
+            <div><strong>Tema:</strong> <span id="theme-display"></span></div>
+            <div style="display: flex; gap: 15px;">
+                <div class="timer-badge">⏳ <span id="timer">30</span>s</div>
+                <div class="timer-badge">⭐ <span id="score-display">0</span> pts</div>
+            </div>
+        </div>
+        <div class="progress-container">
+            <div id="progress-bar" class="progress-bar"></div>
+        </div>
+
+        <div class="content-area">
+            <div class="verse-card">
+                <div class="verse-hint">O que diz a Palavra?</div>
+                <div class="verse-text">"<span id="verse-text">...</span>"</div>
+            </div>
+
+            <div id="options-container" class="options-grid"></div>
+
+            <div id="feedback-area">
+                <div class="feedback-header">
+                    <h2 id="feedback-title"></h2>
+                    <p id="correct-answer-display"></p>
+                </div>
+
+                <div class="tabs">
+                    <button class="tab-btn active" onclick="openTab('ctx')">📜 Contexto</button>
+                    <button class="tab-btn" onclick="openTab('greek')">🏛️ Grego</button>
+                    <button class="tab-btn" onclick="openTab('app')">💡 Aplicação</button>
+                    <button class="tab-btn" onclick="openTab('extra')">🔍 Curiosidade</button>
+                </div>
+
+                <div id="tab-ctx" class="tab-content active">
+                    <span class="info-label">Contexto:</span>
+                    <p id="info-context">...</p>
+                </div>
+                <div id="tab-greek" class="tab-content">
+                    <span class="info-label">Significado Original:</span>
+                    <p id="info-greek">...</p>
+                </div>
+                <div id="tab-app" class="tab-content">
+                    <span class="info-label">Aplicação Prática:</span>
+                    <p id="info-application">...</p>
+                </div>
+                <div id="tab-extra" class="tab-content">
+                    <span class="info-label">Curiosidades & Citações:</span>
+                    <p id="info-curiosity">...</p>
+                    <div class="quote-box">"<span id="info-quote"></span>"</div>
+                </div>
+
+                <div style="text-align: center; margin-top: 25px;">
+                    <button id="btn-next" class="btn">Próximo Versículo ➡️</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="module" src="app.js"></script>
+</body>
+</html>

@@ -85,6 +85,12 @@ function loadQuestion() {
 
     document.getElementById('verse-text').innerText = questionText;
     options.sort(() => Math.random() - 0.5);
+    
+    // Embaralhar opções (Fisher-Yates) para garantir aleatoriedade real
+    for (let i = options.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [options[i], options[j]] = [options[j], options[i]];
+    }
 
     const container = document.getElementById('options-container');
     options.forEach(opt => {

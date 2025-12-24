@@ -1076,6 +1076,4 @@ export const bibleData = {
         }
     }
 ],
-
-
     };

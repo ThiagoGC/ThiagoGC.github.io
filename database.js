@@ -620,5 +620,462 @@ export const bibleData = {
         }
     }
 ],
+"Arrependimento e Santificação": [
+    { 
+        "ref": "Atos 3:19", 
+        "text": "Arrependei-vos, pois, e convertei-vos para serem cancelados os vossos pecados.",
+        "details": {
+            "context": "Pedro prega ao povo judeu após a cura do coxo no templo, chamando-os ao arrependimento messiânico.",
+            "greek": "'Metanoēsate' (arrependei-vos) significa mudança de mente que resulta em mudança de direção, não mero remorso.",
+            "application": "Arrependimento verdadeiro não é sentir culpa, é abandonar o caminho antigo.",
+            "curiosity": "A expressão 'cancelados' evoca a ideia de uma dívida legal apagada dos registros.",
+            "quote": "Arrependimento não é o fim da alegria, é o começo dela. — Thomas Watson"
+        }
+    },
+    { 
+        "ref": "2 Coríntios 7:10", 
+        "text": "Porque a tristeza segundo Deus produz arrependimento para a salvação...",
+        "details": {
+            "context": "Paulo diferencia a tristeza espiritual da culpa destrutiva que leva ao desespero.",
+            "greek": "'Metanoian eis sōtērian' indica arrependimento que conduz e preserva a salvação.",
+            "application": "Nem toda tristeza é ruim; algumas são instrumentos da graça.",
+            "curiosity": "Pais da igreja viam este texto como diagnóstico da conversão genuína.",
+            "quote": "A dor que cura é melhor que a anestesia que mata. — John Owen"
+        }
+    },
+    { 
+        "ref": "Romanos 12:1-2", 
+        "text": "Não vos conformeis com este século, mas transformai-vos pela renovação da vossa mente.",
+        "details": {
+            "context": "Após expor o evangelho, Paulo mostra como a salvação se expressa em vida transformada.",
+            "greek": "'Metamorphousthe' indica transformação interna contínua, não adaptação externa.",
+            "application": "Santificação começa na mente antes de aparecer no comportamento.",
+            "curiosity": "O verbo usado aqui é o mesmo da transfiguração de Jesus.",
+            "quote": "Deus quer sua mente antes de mudar suas mãos. — R.C. Sproul"
+        }
+    },
+    { 
+        "ref": "1 Tessalonicenses 4:3", 
+        "text": "Pois esta é a vontade de Deus: a vossa santificação.",
+        "details": {
+            "context": "Paulo responde dúvidas práticas sobre como viver de modo agradável a Deus.",
+            "greek": "'Hagiasmos' significa separação progressiva para Deus.",
+            "application": "Santidade não é vocação para poucos, é chamado para todos.",
+            "curiosity": "Este verso era usado em instruções batismais no século I.",
+            "quote": "A santidade é a evidência visível da graça invisível. — J.C. Ryle"
+        }
+    },
+    { 
+        "ref": "Hebreus 12:14", 
+        "text": "Segui a paz com todos e a santificação, sem a qual ninguém verá o Senhor.",
+        "details": {
+            "context": "O autor exorta cristãos cansados a perseverarem em uma vida coerente com a fé.",
+            "greek": "'Chōris' (sem a qual) indica ausência total — não grau menor.",
+            "application": "Santificação não salva, mas a ausência dela revela que nunca houve salvação.",
+            "curiosity": "Este verso era citado em sermões contra o antinomianismo nos primeiros séculos.",
+            "quote": "A fé que salva nunca vem sozinha. — John Calvin"
+        }
+    }
+],
+"A Igreja e o Corpo de Cristo": [
+    { 
+        "ref": "1 Coríntios 12:27", 
+        "text": "Ora, vós sois o corpo de Cristo; e, individualmente, membros desse corpo.",
+        "details": {
+            "context": "Paulo corrige divisões na igreja de Corinto, enfatizando unidade na diversidade.",
+            "greek": "'Sōma Christou' indica organismo vivo, não instituição fria.",
+            "application": "Cristianismo não é vivido isoladamente — você pertence a um corpo.",
+            "curiosity": "A metáfora do corpo era usada politicamente em Roma; Paulo a ressignifica espiritualmente.",
+            "quote": "Não existe cristão solitário no plano de Deus. — Dietrich Bonhoeffer"
+        }
+    },
+    { 
+        "ref": "Efésios 2:19-20", 
+        "text": "Sois da família de Deus... edificados sobre o fundamento dos apóstolos e profetas.",
+        "details": {
+            "context": "Paulo ensina que judeus e gentios agora formam uma única família espiritual.",
+            "greek": "'Oikeioi' indica pertencimento doméstico, intimidade real.",
+            "application": "A igreja não é um evento semanal, é uma família eterna.",
+            "curiosity": "A imagem do edifício era comum em Éfeso, cidade famosa por seu templo.",
+            "quote": "A igreja é o plano A de Deus — e não existe plano B. — Ed Stetzer"
+        }
+    },
+    { 
+        "ref": "Colossenses 1:18", 
+        "text": "Ele é a cabeça do corpo, da igreja.",
+        "details": {
+            "context": "Paulo combate heresias que diminuíam a supremacia de Cristo.",
+            "greek": "'Kephalē' (cabeça) implica autoridade, fonte e direção.",
+            "application": "Quando Cristo não governa a igreja, ela perde vida.",
+            "curiosity": "Este verso foi chave nos debates cristológicos do século IV.",
+            "quote": "Onde Cristo não é cabeça, a igreja se torna apenas um clube religioso. — A.W. Tozer"
+        }
+    },
+    { 
+        "ref": "Atos 2:42", 
+        "text": "E perseveravam na doutrina dos apóstolos, na comunhão, no partir do pão e nas orações.",
+        "details": {
+            "context": "Descrição da igreja nascente logo após Pentecostes.",
+            "greek": "'Koinōnia' indica comunhão profunda, compartilhamento de vida.",
+            "application": "Uma igreja saudável é moldada por ensino, comunhão e oração.",
+            "curiosity": "Este texto é considerado o primeiro 'modelo eclesiológico' da história cristã.",
+            "quote": "A igreja cresce quando vive o que crê. — Tim Keller"
+        }
+    },
+    { 
+        "ref": "Hebreus 10:24-25", 
+        "text": "Consideremo-nos também uns aos outros, para nos estimularmos ao amor e às boas obras.",
+        "details": {
+            "context": "Cristãos estavam abandonando a comunhão por medo de perseguição.",
+            "greek": "'Paroxysmon' indica provocação positiva, estímulo intencional.",
+            "application": "Comunhão não é opcional — é proteção espiritual.",
+            "curiosity": "O abandono das reuniões já era problema no século I.",
+            "quote": "Cristãos isolados são cristãos vulneráveis. — John Wesley"
+        }
+    }
+],
+"O Reino de Deus": [
+    { 
+        "ref": "Marcos 1:15", 
+        "text": "O tempo está cumprido, e o Reino de Deus está próximo; arrependei-vos e crede no evangelho.",
+        "details": {
+            "context": "Estas são as primeiras palavras públicas de Jesus no Evangelho de Marcos, anunciando o eixo central de Sua missão.",
+            "greek": "'Basileia tou Theou' não se refere a um território, mas ao governo ativo e soberano de Deus em ação.",
+            "application": "Entrar no Reino não é mudar de religião, é submeter-se ao governo de Cristo.",
+            "curiosity": "Para judeus do século I, falar do Reino implicava confronto direto com Roma e com lideranças religiosas.",
+            "quote": "O Reino de Deus não é um lugar para onde vamos, mas um governo sob o qual vivemos. — George Eldon Ladd"
+        }
+    },
+    { 
+        "ref": "Lucas 17:20-21", 
+        "text": "O Reino de Deus não vem com aparência exterior... porque o Reino de Deus está entre vós.",
+        "details": {
+            "context": "Jesus responde aos fariseus que esperavam um reino político visível e imediato.",
+            "greek": "'Entos hymōn' pode significar 'no meio de vós', apontando para a presença do Rei, não apenas experiência interior.",
+            "application": "O Reino começa invisível no coração, mas se manifesta visivelmente na vida.",
+            "curiosity": "Este texto foi central no debate entre escatologia realizada e futura no século XX.",
+            "quote": "Onde Cristo reina, ali o Reino já começou. — N.T. Wright"
+        }
+    },
+    { 
+        "ref": "Mateus 6:33", 
+        "text": "Buscai, pois, em primeiro lugar, o seu Reino e a sua justiça...",
+        "details": {
+            "context": "No Sermão do Monte, Jesus ensina a viver livre da ansiedade sob a provisão do Pai.",
+            "greek": "'Zēteite' (buscai) está no imperativo contínuo: buscar como prioridade constante.",
+            "application": "Quando o Reino é prioridade, o resto encontra seu lugar.",
+            "curiosity": "Este versículo era frequentemente memorizado por catecúmenos antes do batismo.",
+            "quote": "A ordem correta do coração produz a paz correta da alma. — John Stott"
+        }
+    },
+    { 
+        "ref": "Romanos 14:17", 
+        "text": "Porque o Reino de Deus não é comida nem bebida, mas justiça, paz e alegria no Espírito Santo.",
+        "details": {
+            "context": "Paulo trata conflitos internos na igreja sobre práticas secundárias.",
+            "greek": "'Dikaiosynē, eirēnē, chara' formam um tripé ético-espiritual do Reino.",
+            "application": "O Reino não se manifesta em regras externas, mas em vida transformada.",
+            "curiosity": "Este verso foi usado por reformadores para combater legalismo religioso.",
+            "quote": "Onde há justiça, paz e alegria no Espírito, ali o Reino já floresceu. — Jürgen Moltmann"
+        }
+    },
+    { 
+        "ref": "Colossenses 1:13", 
+        "text": "Ele nos libertou do império das trevas e nos transportou para o Reino do Filho do seu amor.",
+        "details": {
+            "context": "Paulo afirma a mudança radical de domínio espiritual ocorrida na conversão.",
+            "greek": "'Methestēsen' (transportou) indica transferência legal de jurisdição.",
+            "application": "Você não vive mais sob o mesmo governo espiritual de antes.",
+            "curiosity": "A linguagem reflete práticas romanas de transferência de cidadania.",
+            "quote": "Conversão é troca de reino, não apenas de comportamento. — Sinclair Ferguson"
+        }
+    }
+],
+"O Juízo Final e a Justiça de Deus": [
+    { 
+        "ref": "Hebreus 9:27", 
+        "text": "E, assim como aos homens está ordenado morrerem uma só vez, vindo, depois disto, o juízo.",
+        "details": {
+            "context": "O autor de Hebreus enfatiza a seriedade da vida presente à luz da eternidade.",
+            "greek": "'Krisis' indica julgamento decisivo, não processo indefinido.",
+            "application": "A eternidade não será negociada depois da morte.",
+            "curiosity": "Este verso foi usado contra a ideia de reencarnação já nos primeiros séculos.",
+            "quote": "Uma vida sem juízo futuro se torna moralmente vazia. — Francis Schaeffer"
+        }
+    },
+    { 
+        "ref": "2 Coríntios 5:10", 
+        "text": "Porque importa que todos nós compareçamos perante o tribunal de Cristo...",
+        "details": {
+            "context": "Paulo motiva vida santa lembrando que até os crentes prestarão contas.",
+            "greek": "'Bēma' era o tribunal romano onde recompensas e sentenças eram declaradas.",
+            "application": "Graça não elimina responsabilidade; a aprofunda.",
+            "curiosity": "O 'bēma' era conhecido dos coríntios como local público de julgamentos.",
+            "quote": "A fé que nos salva também nos chama a prestar contas. — John MacArthur"
+        }
+    },
+    { 
+        "ref": "Romanos 2:6", 
+        "text": "Deus retribuirá a cada um segundo as suas obras.",
+        "details": {
+            "context": "Paulo estabelece o princípio universal da justiça divina antes de apresentar a graça.",
+            "greek": "'Apodōsei' significa pagar integralmente o que é devido.",
+            "application": "As obras não salvam, mas revelam quem realmente fomos.",
+            "curiosity": "Paulo ecoa Salmos e Provérbios, conectando AT e NT.",
+            "quote": "O juízo revela, não inventa, a realidade do coração. — Jonathan Edwards"
+        }
+    },
+    { 
+        "ref": "Apocalipse 20:12", 
+        "text": "E os mortos foram julgados, segundo as suas obras, conforme o que se achava escrito nos livros.",
+        "details": {
+            "context": "João descreve o juízo final após a derrota definitiva do mal.",
+            "greek": "'Bibliōn' (livros) aponta para registro completo e justo.",
+            "application": "Nada passa despercebido diante do Juiz eterno.",
+            "curiosity": "A imagem dos livros era comum em tribunais do mundo antigo.",
+            "quote": "Deus não esquece — Ele julga com perfeita memória. — Herman Bavinck"
+        }
+    },
+    { 
+        "ref": "Mateus 25:46", 
+        "text": "E irão estes para o castigo eterno, porém os justos, para a vida eterna.",
+        "details": {
+            "context": "Conclusão do discurso de Jesus sobre o juízo das nações.",
+            "greek": "'Aiōnios' (eterno) tem a mesma duração tanto para juízo quanto para vida.",
+            "application": "As escolhas do presente ecoam na eternidade.",
+            "curiosity": "Este versículo foi central nos debates sobre punição eterna na história da igreja.",
+            "quote": "Jesus falou mais sobre o juízo porque amava demais para permanecer em silêncio. — D.A. Carson"
+        }
+    }
+],
+"Oração": [
+    { 
+        "ref": "Mateus 6:9-10", 
+        "text": "Portanto, vós orareis assim: Pai nosso, que estás nos céus, santificado seja o teu nome; venha o teu Reino; faça-se a tua vontade.",
+        "details": {
+            "context": "No Sermão do Monte, Jesus ensina seus discípulos a orar de forma centrada em Deus, não em autopromoção religiosa.",
+            "greek": "'Proseuchesthe' indica oração contínua e relacional. 'Hagiasthētō' (santificado) é um pedido para que o nome de Deus seja honrado publicamente.",
+            "application": "A oração começa alinhando nosso coração com a vontade de Deus antes de apresentar nossos pedidos.",
+            "curiosity": "Esta oração era repetida diariamente por cristãos do século I, segundo a Didaquê.",
+            "quote": "A oração não é para mudar Deus, mas para nos alinhar a Ele. — John Stott"
+        }
+    },
+    { 
+        "ref": "Filipenses 4:6-7", 
+        "text": "Não andeis ansiosos por coisa alguma; em tudo, porém, sejam conhecidas, diante de Deus, as vossas petições.",
+        "details": {
+            "context": "Paulo escreve da prisão, ensinando paz em meio à incerteza e sofrimento.",
+            "greek": "'Merimnate' (ansiosos) significa mente dividida; oração unifica o coração em Deus.",
+            "application": "Ansiedade diminui quando preocupações são transformadas em oração.",
+            "curiosity": "Este texto era usado como leitura pastoral para cristãos perseguidos no Império Romano.",
+            "quote": "Ore — e deixe Deus carregar o que você não consegue. — Corrie Ten Boom"
+        }
+    },
+    { 
+        "ref": "1 Tessalonicenses 5:17", 
+        "text": "Orai sem cessar.",
+        "details": {
+            "context": "Paulo conclui a carta com exortações práticas para a vida diária cristã.",
+            "greek": "'Adialeiptōs' indica repetição frequente, não oração verbal ininterrupta.",
+            "application": "Viver em oração é manter consciência constante da presença de Deus.",
+            "curiosity": "Monges do deserto usavam este versículo como base para a oração contínua.",
+            "quote": "Orar sem cessar é viver dependente. — Andrew Murray"
+        }
+    },
+    { 
+        "ref": "Romanos 8:15", 
+        "text": "Recebestes o Espírito de adoção, pelo qual clamamos: Aba, Pai.",
+        "details": {
+            "context": "Paulo mostra que a oração cristã flui da filiação, não do medo.",
+            "greek": "'Abba' é termo aramaico íntimo, usado por crianças para o pai.",
+            "application": "Você ora não como escravo, mas como filho.",
+            "curiosity": "Jesus usou 'Abba' em sua oração no Getsêmani, revelando intimidade filial.",
+            "quote": "A oração cristã começa quando chamamos Deus de Pai. — J.I. Packer"
+        }
+    },
+    { 
+        "ref": "Hebreus 4:16", 
+        "text": "Aproximemo-nos, portanto, confiadamente, junto ao trono da graça.",
+        "details": {
+            "context": "Cristo é apresentado como sumo sacerdote que compreende nossas fraquezas.",
+            "greek": "'Parrēsia' expressa ousadia respeitosa diante de autoridade suprema.",
+            "application": "Você não invade o trono — é convidado a se aproximar.",
+            "curiosity": "Contrasta radicalmente com o acesso restrito ao Santo dos Santos no AT.",
+            "quote": "O trono da graça está aberto porque o véu foi rasgado. — Matthew Henry"
+        }
+    }
+],
+"A Palavra de Deus e a Verdade": [
+    { 
+        "ref": "2 Timóteo 3:16-17", 
+        "text": "Toda a Escritura é inspirada por Deus e útil para o ensino...",
+        "details": {
+            "context": "Paulo instrui Timóteo sobre a autoridade e suficiência das Escrituras em tempos de engano.",
+            "greek": "'Theopneustos' significa 'soprada por Deus' — origem divina, não apenas inspiração humana.",
+            "application": "A Bíblia não apenas informa — ela forma o caráter.",
+            "curiosity": "Este texto fundamenta a doutrina da inspiração bíblica na história da igreja.",
+            "quote": "A Escritura é a voz de Deus falando conosco hoje. — B.B. Warfield"
+        }
+    },
+    { 
+        "ref": "Hebreus 4:12", 
+        "text": "Porque a palavra de Deus é viva e eficaz...",
+        "details": {
+            "context": "O autor alerta sobre endurecer o coração diante da Palavra.",
+            "greek": "'Zōsa' (viva) indica atividade contínua; 'energes' é eficaz, operante.",
+            "application": "A Palavra não pode ser ignorada sem consequências.",
+            "curiosity": "A metáfora da espada era comum em discursos militares romanos.",
+            "quote": "A Bíblia não é apenas lida — ela nos lê. — A.W. Tozer"
+        }
+    },
+    { 
+        "ref": "João 17:17", 
+        "text": "Santifica-os na verdade; a tua palavra é a verdade.",
+        "details": {
+            "context": "Jesus ora pelos discípulos pouco antes da crucificação.",
+            "greek": "'Alētheia' indica realidade última, não apenas veracidade factual.",
+            "application": "Santificação acontece quando a verdade molda nossa vida.",
+            "curiosity": "Este verso moldou a visão reformada da centralidade da Palavra.",
+            "quote": "Deus nos santifica pela verdade, não por experiências. — R.C. Sproul"
+        }
+    },
+    { 
+        "ref": "Salmos 119:105", 
+        "text": "Lâmpada para os meus pés é a tua palavra, e luz para o meu caminho.",
+        "details": {
+            "context": "Salmo acróstico que exalta a Palavra como guia da vida piedosa.",
+            "greek": "Embora em hebraico, 'nēr' (lâmpada) indica luz suficiente para o próximo passo.",
+            "application": "Deus ilumina o caminho passo a passo, não o mapa inteiro.",
+            "curiosity": "Era recitado por judeus e cristãos antes de viagens longas.",
+            "quote": "A Palavra de Deus nos guia quando o caminho escurece. — Charles Spurgeon"
+        }
+    },
+    { 
+        "ref": "João 8:31-32", 
+        "text": "Conhecereis a verdade, e a verdade vos libertará.",
+        "details": {
+            "context": "Jesus confronta judeus religiosos que acreditavam ser livres, mas estavam presos ao pecado.",
+            "greek": "'Eleutherōsei' (libertará) implica libertação real, não simbólica.",
+            "application": "Liberdade verdadeira começa com submissão à verdade de Cristo.",
+            "curiosity": "Este texto foi frequentemente citado em movimentos por liberdade espiritual.",
+            "quote": "A verdade não apenas informa — ela liberta. — Dietrich Bonhoeffer"
+        }
+    }
+],
+"Missão e Evangelismo": [
+    { 
+        "ref": "Mateus 28:18-20", 
+        "text": "Ide, portanto, fazei discípulos de todas as nações...",
+        "details": {
+            "context": "Estas são as últimas palavras registradas de Jesus antes da ascensão — a missão nasce da autoridade dEle.",
+            "greek": "'Mathēteusate' (fazei discípulos) é o verbo central; 'ide', 'batizando' e 'ensinando' são particípios que o sustentam.",
+            "application": "Evangelizar não é apenas informar — é conduzir pessoas a uma vida de obediência a Cristo.",
+            "curiosity": "Este texto ficou conhecido como a 'Grande Comissão' já no século II.",
+            "quote": "A igreja existe por causa da missão, assim como o fogo existe por causa da queima. — Emil Brunner"
+        }
+    },
+    { 
+        "ref": "Atos 1:8", 
+        "text": "Sereis minhas testemunhas tanto em Jerusalém como em toda a Judeia...",
+        "details": {
+            "context": "Jesus redefine o alcance da missão — do local ao global.",
+            "greek": "'Martures' (testemunhas) é a raiz da palavra mártir, indicando fidelidade até o custo máximo.",
+            "application": "Você não precisa saber tudo — precisa testemunhar o que Cristo fez em você.",
+            "curiosity": "Muitos dos que ouviram isso morreram exatamente como testemunhas fiéis.",
+            "quote": "Testemunhar é falar do que vimos, ouvimos e experimentamos. — John Stott"
+        }
+    },
+    { 
+        "ref": "Romanos 10:14-15", 
+        "text": "Como, porém, invocarão aquele em quem não creram?...",
+        "details": {
+            "context": "Paulo enfatiza a necessidade da proclamação para que haja fé salvadora.",
+            "greek": "'Kēryssō' (pregar) significa proclamar como arauto oficial.",
+            "application": "Deus escolheu usar pessoas para anunciar a mensagem que salva.",
+            "curiosity": "Pregadores eram arautos do império; Paulo aplica o termo ao Reino de Deus.",
+            "quote": "O evangelho é apenas uma notícia até que alguém a proclame. — Martyn Lloyd-Jones"
+        }
+    },
+    { 
+        "ref": "2 Coríntios 5:20", 
+        "text": "De sorte que somos embaixadores em nome de Cristo.",
+        "details": {
+            "context": "Paulo descreve a reconciliação como missão central da igreja.",
+            "greek": "'Presbeuomen' indica representação oficial com autoridade delegada.",
+            "application": "Onde você está, você representa o Reino que serve.",
+            "curiosity": "Embaixadores romanos falavam com autoridade total do imperador.",
+            "quote": "Todo cristão é um missionário — ou um impostor. — Charles Spurgeon"
+        }
+    },
+    { 
+        "ref": "Marcos 16:15", 
+        "text": "Ide por todo o mundo e pregai o evangelho a toda criatura.",
+        "details": {
+            "context": "Chamado universal à proclamação da boa notícia.",
+            "greek": "'Euangelion' significa boas notícias públicas, não conselho privado.",
+            "application": "O evangelho não é para ser guardado — é para ser anunciado.",
+            "curiosity": "Este verso impulsionou os primeiros movimentos missionários globais.",
+            "quote": "O evangelho é boas novas demais para ficarem em silêncio. — Billy Graham"
+        }
+    }
+],
+"Discipulado e Vida Cristã Prática": [
+    { 
+        "ref": "Lucas 9:23", 
+        "text": "Se alguém quer vir após mim, a si mesmo se negue, dia a dia tome a sua cruz e siga-me.",
+        "details": {
+            "context": "Jesus corrige expectativas triunfalistas sobre o discipulado.",
+            "greek": "'Aparneomai' (negar-se) indica rejeição consciente do ego como centro.",
+            "application": "Discipulado é morrer para si mesmo todos os dias.",
+            "curiosity": "A cruz ainda não era símbolo religioso, mas instrumento de morte.",
+            "quote": "Quando Cristo chama um homem, chama-o para morrer. — Dietrich Bonhoeffer"
+        }
+    },
+    { 
+        "ref": "Mateus 11:28-30", 
+        "text": "Vinde a mim todos os que estais cansados e sobrecarregados, e eu vos aliviarei. Tomem sobre vocês o meu jugo e aprendam de mim, porque sou manso e humilde de coração; e vocês acharão descanso para a sua alma. Porque o meu jugo é suave, e o meu fardo é leve.",
+        "details": {
+            "context": "Jesus oferece descanso em contraste com o peso do legalismo farisaico.",
+            "greek": "'Anapausō' significa descanso profundo, restauração da alma.",
+            "application": "Seguir Jesus não é peso — é alívio.",
+            "curiosity": "Rabinos chamavam a lei de 'jugo'; Jesus redefine esse conceito.",
+            "quote": "O jugo de Cristo é pesado apenas para quem não quer largar o seu. — Tim Keller"
+        }
+    },
+    { 
+        "ref": "João 8:12", 
+        "text": "Eu sou a luz do mundo; quem me segue não andará nas trevas.",
+        "details": {
+            "context": "Jesus fala durante a Festa dos Tabernáculos, quando grandes candelabros eram acesos.",
+            "greek": "'Phōs' indica luz que revela, guia e expulsa as trevas.",
+            "application": "Seguir Jesus traz clareza para decisões diárias.",
+            "curiosity": "Os candelabros simbolizavam a coluna de fogo no deserto.",
+            "quote": "Onde Cristo guia, a escuridão recua. — A.W. Pink"
+        }
+    },
+    { 
+        "ref": "Colossenses 2:6-7", 
+        "text": "Assim como recebestes Cristo Jesus, o Senhor, assim andai nele.",
+        "details": {
+            "context": "Paulo alerta contra filosofias que desviavam da simplicidade do evangelho.",
+            "greek": "'Peripateite' indica estilo de vida contínuo.",
+            "application": "A fé que salva é a fé que continua andando.",
+            "curiosity": "Este verso era usado como instrução pós-batismo.",
+            "quote": "Começamos pela graça e continuamos pela graça. — Jerry Bridges"
+        }
+    },
+    { 
+        "ref": "Tiago 1:22", 
+        "text": "Tornai-vos praticantes da palavra e não somente ouvintes.",
+        "details": {
+            "context": "Tiago combate fé meramente intelectual.",
+            "greek": "'Poiētai' (praticantes) implica ação contínua.",
+            "application": "Obediência é a prova visível da fé invisível.",
+            "curiosity": "Tiago era conhecido como 'o Justo' por sua vida coerente.",
+            "quote": "A fé que não age é apenas opinião religiosa. — John MacArthur"
+        }
+    }
+],
+
 
     };

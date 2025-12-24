@@ -182,6 +182,10 @@ select {
     transition: all 0.2s;
     color: var(--primary);
     font-weight: 600;
+    white-space: normal;
+    /* Permite quebra de linha para textos longos */
+    text-align: left;
+    /* Alinha texto à esquerda para melhor leitura */
 }
 
 .option-btn:hover:not(:disabled) {

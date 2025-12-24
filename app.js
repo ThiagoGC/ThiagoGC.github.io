@@ -6,6 +6,7 @@ let currentQIndex = 0;
 let score = 0;
 let timerInterval;
 let timeLeft = 30;
+let currentLevel = 1;
 
 // Inicialização
 document.addEventListener('DOMContentLoaded', () => {
@@ -25,6 +26,7 @@ function startQuiz() {
     const themeSelect = document.getElementById('theme-select');
     currentTheme = themeSelect.value;
     if (!currentTheme) return alert("Escolha um tema!");
+    currentLevel = parseInt(document.getElementById('level-select').value);
 
     score = 0;
     currentQIndex = 0;
@@ -42,28 +44,56 @@ function loadQuestion() {
     // Reset UI
     document.getElementById('feedback-area').style.display = 'none';
     document.getElementById('options-container').innerHTML = '';
-    document.getElementById('verse-text').innerText = qData.text;
     document.getElementById('score-display').innerText = score;
 
     // Barra de Progresso
     const pct = (currentQIndex / themeQuestions.length) * 100;
     document.getElementById('progress-bar').style.width = pct + "%";
 
-    // Opções
-    let options = [{ ref: qData.ref, correct: true }];
-    let allRefs = [];
-    Object.values(bibleData).flat().forEach(i => { if(i.ref !== qData.ref) allRefs.push(i.ref) });
-    allRefs.sort(() => Math.random() - 0.5);
-    options.push({ ref: allRefs[0], correct: false });
-    options.push({ ref: allRefs[1], correct: false });
-    options.push({ ref: allRefs[2], correct: false });
+    // Configuração baseada no Nível
+    let questionText = "";
+    let options = [];
+    let correctLabel = "";
+
+    if (currentLevel === 1) {
+        // Nível 1: Mostra Texto -> Adivinha Referência
+        document.querySelector('.verse-hint').innerText = "Onde está escrito?";
+        questionText = qData.text;
+        correctLabel = qData.ref;
+        
+        // Gerar opções de Referência
+        options.push({ label: qData.ref, correct: true });
+        let allRefs = Object.values(bibleData).flat().map(i => i.ref).filter(r => r !== qData.ref);
+        allRefs.sort(() => Math.random() - 0.5);
+        options.push({ label: allRefs[0], correct: false });
+        options.push({ label: allRefs[1], correct: false });
+        options.push({ label: allRefs[2], correct: false });
+    } else {
+        // Nível 2: Mostra Referência -> Adivinha Texto
+        document.querySelector('.verse-hint').innerText = "O que diz em " + qData.ref + "?";
+        questionText = "..."; // Oculta o texto principal pois ele é a resposta
+        correctLabel = qData.text;
+
+        // Gerar opções de Texto
+        options.push({ label: qData.text, correct: true });
+        let allTexts = Object.values(bibleData).flat().map(i => i.text).filter(t => t !== qData.text);
+        allTexts.sort(() => Math.random() - 0.5);
+        options.push({ label: allTexts[0], correct: false });
+        options.push({ label: allTexts[1], correct: false });
+        options.push({ label: allTexts[2], correct: false });
+    }
+
+    document.getElementById('verse-text').innerText = questionText;
     options.sort(() => Math.random() - 0.5);
 
     const container = document.getElementById('options-container');
     options.forEach(opt => {
         const btn = document.createElement('button');
         btn.className = 'option-btn';
-        btn.innerText = opt.ref;
+        btn.innerText = opt.label;
+        // Ajuste de fonte para textos longos (Nível 2)
+        if(opt.label.length > 50) btn.style.fontSize = "0.9rem";
+        
         btn.onclick = () => checkAnswer(btn, opt.correct, qData);
         container.appendChild(btn);
     });
@@ -100,8 +130,9 @@ function checkAnswer(btn, isCorrect, qData) {
         title.innerText = "Incorreto 📚";
         title.style.color = "var(--error)";
         // Mostrar a correta
+        const correctText = (currentLevel === 1) ? qData.ref : qData.text;
         document.querySelectorAll('.option-btn').forEach(b => {
-            if(b.innerText === qData.ref) b.classList.add('correct');
+            if(b.innerText === correctText) b.classList.add('correct');
         });
     }
     
